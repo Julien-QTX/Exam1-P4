@@ -12,12 +12,21 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 a{
     margin: 1vh;
     text-decoration: none;
     color: aliceblue;
+}
+
+section{
+    flex: 3;
+}
+
+.CentreBas{
+    flex: 1;
 }
 
 .haut{
