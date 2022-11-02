@@ -14,16 +14,23 @@ header{
     margin: auto;
     display: flex;
     flex-direction: row;
+    height: 50vh;
 }
 
 .Form{
     width: 50%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .Coche{
     width: 50%;
     display: flex;
     flex-direction: column;
+}
+
+button{
+    width: 30%;
+    margin: auto;
+    height: 3vh;
 }
