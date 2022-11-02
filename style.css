@@ -8,9 +8,9 @@ body{
 }
 
 .gauche{
-    flex: 1;
     background-color: red;
     height: 100vh;
+    display: flex;
     flex-direction: column;
 }
 
@@ -21,7 +21,6 @@ a{
 }
 
 .haut{
-    padding: 1vh 150vh 0 0;
     background-color: green;
     height: 25vh;
 }
@@ -29,13 +28,11 @@ a{
 article{
     display: flex;
     flex-direction: row;
-    padding: 0 80vh 0 0;
 }
 
 .centre{
     background-color: rgb(144, 144, 144);
     height: 50vh;
-    padding: 0 80vh 0 0;
 }
 
 .bas{
@@ -47,6 +44,5 @@ article{
 .droit{
     background-color: rgb(173, 173, 173);
     height: 75vh;
-    padding: 0 50vh 0 3vh;
     
 }
