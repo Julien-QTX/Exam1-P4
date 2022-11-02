@@ -11,22 +11,28 @@ header{
 
 .formulaire{
     width: 60%;
-    margin: auto;
     display: flex;
     flex-direction: row;
-    height: 50vh;
+    height: 25vh;
+    margin: 3vh auto;
 }
 
 .Form{
     width: 50%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .Coche{
     width: 50%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+}
+
+.Select{
+    width: 40%;
 }
 
 button{

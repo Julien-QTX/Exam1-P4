@@ -29,12 +29,12 @@
                 
                 <div>
                     <label for="name">Pickup Date/Time</label>
-                    <input type="date">
+                    <input type="datetime-local">
                 </div>
                 
                 <div>
                     <label for="name">Pickup Place</label>
-                    <input type="select">
+                    <select class="Select" id="" placeholder=" Select One">Select</select>
                 </div>
                 
                 <div>
@@ -45,26 +45,40 @@
             </form>
             
             <div class="Coche" >
+                <p>Which taxi do you require ?</p>
+                <div>
+                    <input type="radio" id="scales" name="scales" checked>
+                    <label for="scales">Car</label>
+                    </div>
+                    <div>
+                    <input type="radio" id="scales" name="scales" checked>
+                    <label for="scales">Van</label>
+                    </div>
+                    <div>
+                    <input type="radio" id="scales" name="scales" checked>
+                    <label for="scales">Tuk Tuk</label>
+                </div>
+                <p>Extra</p>
                 <div>
                     <input type="checkbox" id="scales" name="scales" checked>
-                    <label for="scales"></label>
+                    <label for="scales">Baby Seat</label>
                     </div>
                     <div>
                     <input type="checkbox" id="scales" name="scales" checked>
-                    <label for="scales">Scales</label>
+                    <label for="scales">Wheelchair Access</label>
                     </div>
                     <div>
                     <input type="checkbox" id="scales" name="scales" checked>
-                    <label for="scales">Scales</label>
+                    <label for="scales">Stock Tip</label>
                 </div>
             </div>
-            </div>
 
-            
-            
         </div>
 
-        <button class="bouton">Submit</button>
+        <div class="bouton">
+            <button>Submit Booking</button>
+        </div>
+        
 
     </header>
     
