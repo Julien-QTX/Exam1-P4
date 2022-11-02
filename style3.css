@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 80vh;
+    background-color: beige;
+}
+
+.formulaire{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.Form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Coche{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}

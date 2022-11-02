@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 25vh;
+    background-color: green;
+}
+
+section{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.coteG{
+    width: 60%;
+}
+
+.boite{
+    width: 100%;
+    height: 25vh;
+
+}
+
+.boites{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin: 1vh 1vh 1vh 33vh ;
+    text-align: center;
+}
+
+.B1, .B2, .B4, .B5{
+    width: 20%;
+    height: 10vh;
+    margin: auto;
+}
+
+.B1{
+    background-color: gray;
+}
+
+.B2{
+    background-color: rgb(178, 172, 172);
+}
+
+.B3{
+    width: 20%;
+    height: 20vh;
+    background-color: brown;
+    font-size: 8rem;
+}
+
+.B4{
+    background-color: red;
+}
+
+.B5{
+    background-color: yellow;
+}
+
+.text{
+    width: 100%;
+    height: 25vh;
+}
+
+.txt{
+    margin: 1vh;
+    font-size: x-large;
+    color: red;
+}
+
+.aside{
+    width: 20%;
+    background-color: blue;
+}
+
+.nav{
+    width: 20%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    margin: 1vh;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer{
+    width: 100%;
+    height: 25vh;
+    background-color: green;
+
+}

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+}
+
+.gauche{
+    flex: 1;
+    background-color: red;
+    height: 100vh;
+    flex-direction: column;
+}
+
+a{
+    margin: 1vh;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.haut{
+    padding: 1vh 150vh 0 0;
+    background-color: green;
+    height: 25vh;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    padding: 0 80vh 0 0;
+}
+
+.centre{
+    background-color: rgb(144, 144, 144);
+    height: 50vh;
+    padding: 0 80vh 0 0;
+}
+
+.bas{
+    background-color: green;
+    height: 25vh;
+    
+}
+
+.droit{
+    background-color: rgb(173, 173, 173);
+    height: 75vh;
+    padding: 0 50vh 0 3vh;
+    
+}
