@@ -35,8 +35,8 @@ header{
     width: 40%;
 }
 
-button{
-    width: 30%;
+.bouton{
+    width: 20%;
     margin: auto;
-    height: 3vh;
+    height: 5vh;
 }
