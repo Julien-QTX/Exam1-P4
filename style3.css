@@ -24,6 +24,11 @@ header{
     justify-content: space-around;
 }
 
+.input{
+    display: flex;
+    justify-content: space-between;
+}
+
 .Coche{
     width: 50%;
     display: flex;
